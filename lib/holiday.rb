@@ -34,7 +34,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if key == :winter
       hash[key][:christmas].push(item)
       hash[key][:new_years].push(item)
-      end 
+      end
   end
 end
 
