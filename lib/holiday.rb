@@ -52,8 +52,8 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |season, items|
-    puts items
-
+    items
+end
 end
 
 def all_supplies_in_holidays(holiday_hash)
